@@ -18,7 +18,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$DoneByEmployee = Initialize-RealGreenSAPSDoneByEmployee  -Id null `
+$DoneByEmployee = Initialize-RealGreenSaPSDoneByEmployee  -Id null `
  -ServiceID null `
  -EmployeeID null `
  -EmployeeName null `

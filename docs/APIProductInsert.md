@@ -18,7 +18,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$APIProductInsert = Initialize-RealGreenSAPSAPIProductInsert  -ProductCode null `
+$APIProductInsert = Initialize-RealGreenSaPSAPIProductInsert  -ProductCode null `
  -Description null `
  -EpaNumber null `
  -OnHand null `

@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$HistoryItemSearch = Initialize-RealGreenSAPSHistoryItemSearch  -CustomerNumber null `
+$HistoryItemSearch = Initialize-RealGreenSaPSHistoryItemSearch  -CustomerNumber null `
  -DateTimeRange null `
  -TransactionCodes null
 ```

@@ -45,7 +45,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$APICustomerInsert = Initialize-RealGreenSAPSAPICustomerInsert  -CustNo null `
+$APICustomerInsert = Initialize-RealGreenSaPSAPICustomerInsert  -CustNo null `
  -Firstname null `
  -Lastname null `
  -Company null `

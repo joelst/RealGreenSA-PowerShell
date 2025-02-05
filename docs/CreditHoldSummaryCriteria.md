@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$CreditHoldSummaryCriteria = Initialize-RealGreenSAPSCreditHoldSummaryCriteria  -CompanyIDs null `
+$CreditHoldSummaryCriteria = Initialize-RealGreenSaPSCreditHoldSummaryCriteria  -CompanyIDs null `
  -CustomerType null `
  -Statuses null
 ```

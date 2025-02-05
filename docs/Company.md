@@ -58,7 +58,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$Company = Initialize-RealGreenSAPSCompany  -Id null `
+$Company = Initialize-RealGreenSaPSCompany  -Id null `
  -CompanyName null `
  -BranchNumber null `
  -AddressLine1 null `

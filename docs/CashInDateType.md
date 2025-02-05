@@ -8,7 +8,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$CashInDateType = Initialize-RealGreenSAPSCashInDateType 
+$CashInDateType = Initialize-RealGreenSaPSCashInDateType 
 ```
 
 - Convert the resource to JSON

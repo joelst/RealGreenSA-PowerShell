@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$PrepaySummary = Initialize-RealGreenSAPSPrepaySummary  -PrepayCode null `
+$PrepaySummary = Initialize-RealGreenSaPSPrepaySummary  -PrepayCode null `
  -ServicesRemaining null `
  -DollarsRemaining null `
  -GrossDollarsRemaining null `

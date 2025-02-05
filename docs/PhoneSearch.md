@@ -9,7 +9,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$PhoneSearch = Initialize-RealGreenSAPSPhoneSearch  -PhoneNumber null
+$PhoneSearch = Initialize-RealGreenSaPSPhoneSearch  -PhoneNumber null
 ```
 
 - Convert the resource to JSON

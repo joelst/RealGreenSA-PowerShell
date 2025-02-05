@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$SkipServicesAPIResult = Initialize-RealGreenSAPSSkipServicesAPIResult  -AllServices null `
+$SkipServicesAPIResult = Initialize-RealGreenSaPSSkipServicesAPIResult  -AllServices null `
  -NonServiceable null `
  -Percentage null `
  -NonServiceDetails null

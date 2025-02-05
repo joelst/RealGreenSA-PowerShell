@@ -8,7 +8,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$ProgramJobLength = Initialize-RealGreenSAPSProgramJobLength 
+$ProgramJobLength = Initialize-RealGreenSaPSProgramJobLength 
 ```
 
 - Convert the resource to JSON

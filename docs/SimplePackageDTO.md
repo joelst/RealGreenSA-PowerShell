@@ -26,7 +26,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$SimplePackageDTO = Initialize-RealGreenSAPSSimplePackageDTO  -CustNo null `
+$SimplePackageDTO = Initialize-RealGreenSaPSSimplePackageDTO  -CustNo null `
  -Size null `
  -Route null `
  -Status null `

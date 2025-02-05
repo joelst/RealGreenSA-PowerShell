@@ -20,7 +20,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$AddInstallmentRequest = Initialize-RealGreenSAPSAddInstallmentRequest  -CustomerNumber null `
+$AddInstallmentRequest = Initialize-RealGreenSaPSAddInstallmentRequest  -CustomerNumber null `
  -NumberOfPayments null `
  -Status null `
  -AutoRenew null `

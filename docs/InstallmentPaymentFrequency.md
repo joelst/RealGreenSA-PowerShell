@@ -8,7 +8,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$InstallmentPaymentFrequency = Initialize-RealGreenSAPSInstallmentPaymentFrequency 
+$InstallmentPaymentFrequency = Initialize-RealGreenSaPSInstallmentPaymentFrequency 
 ```
 
 - Convert the resource to JSON

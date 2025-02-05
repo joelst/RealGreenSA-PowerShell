@@ -98,7 +98,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$CustomerSearch = Initialize-RealGreenSAPSCustomerSearch  -CustomerID null `
+$CustomerSearch = Initialize-RealGreenSaPSCustomerSearch  -CustomerID null `
  -CustomerStatus null `
  -CustomerCompanyName null `
  -CustomerFirstName null `

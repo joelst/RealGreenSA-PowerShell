@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$PrepayAdjustmentServiceModel = Initialize-RealGreenSAPSPrepayAdjustmentServiceModel  -CustomerNumber null `
+$PrepayAdjustmentServiceModel = Initialize-RealGreenSaPSPrepayAdjustmentServiceModel  -CustomerNumber null `
  -PrepayCode null `
  -ProgIds null `
  -EmpId null

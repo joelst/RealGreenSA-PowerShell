@@ -20,7 +20,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$DetailedPriceTable = Initialize-RealGreenSAPSDetailedPriceTable  -Id null `
+$DetailedPriceTable = Initialize-RealGreenSaPSDetailedPriceTable  -Id null `
  -Description null `
  -Available null `
  -MaxSize null `

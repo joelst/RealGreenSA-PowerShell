@@ -8,7 +8,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$TransactionCode = Initialize-RealGreenSAPSTransactionCode 
+$TransactionCode = Initialize-RealGreenSaPSTransactionCode 
 ```
 
 - Convert the resource to JSON

@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$DiscountSummaryRequest = Initialize-RealGreenSAPSDiscountSummaryRequest  -Season null `
+$DiscountSummaryRequest = Initialize-RealGreenSaPSDiscountSummaryRequest  -Season null `
  -CompanyIDs null `
  -DiscountCodes null
 ```

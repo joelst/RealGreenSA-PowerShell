@@ -8,7 +8,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$BillType = Initialize-RealGreenSAPSBillType 
+$BillType = Initialize-RealGreenSaPSBillType 
 ```
 
 - Convert the resource to JSON

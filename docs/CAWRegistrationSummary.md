@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$CAWRegistrationSummary = Initialize-RealGreenSAPSCAWRegistrationSummary  -ActiveCount null `
+$CAWRegistrationSummary = Initialize-RealGreenSaPSCAWRegistrationSummary  -ActiveCount null `
  -RegisteredPercent null `
  -AutoPayPercent null
 ```

@@ -29,7 +29,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$CustomerContactPreferencesProperties = Initialize-RealGreenSAPSCustomerContactPreferencesProperties  -DontTelemarket null `
+$CustomerContactPreferencesProperties = Initialize-RealGreenSaPSCustomerContactPreferencesProperties  -DontTelemarket null `
  -DontDirectMail null `
  -DontEmail null `
  -EmailStatements null `

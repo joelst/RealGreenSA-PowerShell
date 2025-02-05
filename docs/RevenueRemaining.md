@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$RevenueRemaining = Initialize-RealGreenSAPSRevenueRemaining  -TotalIncompleteServices null `
+$RevenueRemaining = Initialize-RealGreenSaPSRevenueRemaining  -TotalIncompleteServices null `
  -TotalCompletedAndUnpaid null `
  -InstallmentChargesNotPosted null `
  -UnpaidPostedInstallments null

@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$DateTimeRange = Initialize-RealGreenSAPSDateTimeRange  -MinValue null `
+$DateTimeRange = Initialize-RealGreenSaPSDateTimeRange  -MinValue null `
  -MaxValue null
 ```
 

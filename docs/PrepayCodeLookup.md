@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$PrepayCodeLookup = Initialize-RealGreenSAPSPrepayCodeLookup  -CompanyID null `
+$PrepayCodeLookup = Initialize-RealGreenSaPSPrepayCodeLookup  -CompanyID null `
  -ProgramDefinitionIDs null
 ```
 

@@ -22,7 +22,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$ProductionParams = Initialize-RealGreenSAPSProductionParams  -CanUseProducts null `
+$ProductionParams = Initialize-RealGreenSaPSProductionParams  -CanUseProducts null `
  -CanEnterStartTime null `
  -CanEnterEndTime null `
  -CanEnterCrew null `

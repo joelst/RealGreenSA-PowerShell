@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$RejectCode = Initialize-RealGreenSAPSRejectCode  -Id null `
+$RejectCode = Initialize-RealGreenSaPSRejectCode  -Id null `
  -LetterID null `
  -Available null `
  -RejectDescription null `

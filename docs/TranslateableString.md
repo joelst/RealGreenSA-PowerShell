@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$TranslateableString = Initialize-RealGreenSAPSTranslateableString  -EnglishValue null `
+$TranslateableString = Initialize-RealGreenSaPSTranslateableString  -EnglishValue null `
  -FrenchValue null `
  -SpanishValue null
 ```

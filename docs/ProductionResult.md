@@ -16,7 +16,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$ProductionResult = Initialize-RealGreenSAPSProductionResult  -TotalServiceCount null `
+$ProductionResult = Initialize-RealGreenSaPSProductionResult  -TotalServiceCount null `
  -TotalServiceSize null `
  -GrossAmount null `
  -NetAmount null `

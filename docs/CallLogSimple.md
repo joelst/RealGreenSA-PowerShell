@@ -16,7 +16,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$CallLogSimple = Initialize-RealGreenSAPSCallLogSimple  -CustNo null `
+$CallLogSimple = Initialize-RealGreenSaPSCallLogSimple  -CustNo null `
  -EmpId null `
  -ActionReasonID null `
  -Status null `

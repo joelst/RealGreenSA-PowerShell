@@ -8,7 +8,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$JobTypes = Initialize-RealGreenSAPSJobTypes 
+$JobTypes = Initialize-RealGreenSaPSJobTypes 
 ```
 
 - Convert the resource to JSON

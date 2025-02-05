@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$TelematicsIdleConfiguration = Initialize-RealGreenSAPSTelematicsIdleConfiguration  -MinIdleTimeSec null `
+$TelematicsIdleConfiguration = Initialize-RealGreenSaPSTelematicsIdleConfiguration  -MinIdleTimeSec null `
  -MinIdleSpeedKmh null `
  -DetectStopMaxSpeedKmh null `
  -MaxRadiusMeters null

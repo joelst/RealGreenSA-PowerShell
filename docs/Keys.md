@@ -8,7 +8,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$Keys = Initialize-RealGreenSAPSKeys 
+$Keys = Initialize-RealGreenSaPSKeys 
 ```
 
 - Convert the resource to JSON

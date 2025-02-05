@@ -23,7 +23,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$Flag = Initialize-RealGreenSAPSFlag  -Id null `
+$Flag = Initialize-RealGreenSaPSFlag  -Id null `
  -Symbol null `
  -ForegroundColor null `
  -BackgroundCOlor null `

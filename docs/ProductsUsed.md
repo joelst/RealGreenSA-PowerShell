@@ -16,7 +16,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$ProductsUsed = Initialize-RealGreenSAPSProductsUsed  -Id null `
+$ProductsUsed = Initialize-RealGreenSaPSProductsUsed  -Id null `
  -ServiceID null `
  -ProductID null `
  -LocationID null `

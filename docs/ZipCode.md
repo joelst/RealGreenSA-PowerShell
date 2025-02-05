@@ -29,7 +29,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$ZipCode = Initialize-RealGreenSAPSZipCode  -Zip null `
+$ZipCode = Initialize-RealGreenSaPSZipCode  -Zip null `
  -TaxID1 null `
  -TaxID2 null `
  -TaxID3 null `

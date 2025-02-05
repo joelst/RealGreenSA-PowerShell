@@ -19,7 +19,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$ActionStatus = Initialize-RealGreenSAPSActionStatus  -Status null `
+$ActionStatus = Initialize-RealGreenSaPSActionStatus  -Status null `
  -StatusDescription null `
  -Resolved null `
  -DefaultStatus null `

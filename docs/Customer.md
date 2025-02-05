@@ -4,7 +4,6 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **Id** | **Int32** |  | [optional] 
-**ContactPreferences** | [**CustomerContactPreferences**](CustomerContactPreferences.md) |  | [optional] 
 **StatusCharacter** | **String** |  | [optional] 
 **BranchID** | **Int32** |  | [optional] 
 **FirstName** | **String** |  | [optional] 
@@ -107,6 +106,7 @@ Name | Type | Description | Notes
 **StatementType** | **Double** |  | [optional] 
 **StatementFrequency** | [**StatementFrequency**](StatementFrequency.md) |  | [optional] 
 **CustomerWebsiteUrl** | **String** |  | [optional] 
+**ContactPreferences** | [**CustomerContactPreferences**](CustomerContactPreferences.md) |  | [optional] 
 **CreditHoldStatus** | **Int32** |  | [optional] 
 **CreditLimit** | **Double** |  | [optional] 
 **LastPaymentDate** | **System.DateTime** |  | [optional] 
@@ -120,8 +120,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$Customer = Initialize-RealGreenSAPSCustomer  -Id null `
- -ContactPreferences null `
+$Customer = Initialize-RealGreenSaPSCustomer  -Id null `
  -StatusCharacter null `
  -BranchID null `
  -FirstName null `
@@ -224,6 +223,7 @@ $Customer = Initialize-RealGreenSAPSCustomer  -Id null `
  -StatementType null `
  -StatementFrequency null `
  -CustomerWebsiteUrl null `
+ -ContactPreferences null `
  -CreditHoldStatus null `
  -CreditLimit null `
  -LastPaymentDate null `

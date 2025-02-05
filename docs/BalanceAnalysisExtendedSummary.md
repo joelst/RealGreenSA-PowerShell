@@ -23,7 +23,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$BalanceAnalysisExtendedSummary = Initialize-RealGreenSAPSBalanceAnalysisExtendedSummary  -Due030 null `
+$BalanceAnalysisExtendedSummary = Initialize-RealGreenSaPSBalanceAnalysisExtendedSummary  -Due030 null `
  -Due3145 null `
  -Due4660 null `
  -Due6190 null `

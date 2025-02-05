@@ -21,7 +21,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$APIEmployee = Initialize-RealGreenSAPSAPIEmployee  -Id null `
+$APIEmployee = Initialize-RealGreenSaPSAPIEmployee  -Id null `
  -Name null `
  -Email null `
  -Position null `

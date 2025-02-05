@@ -15,7 +15,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$Territory = Initialize-RealGreenSAPSTerritory  -Id null `
+$Territory = Initialize-RealGreenSaPSTerritory  -Id null `
  -CompanyID null `
  -BackgroundColor null `
  -ForegroundColor null `

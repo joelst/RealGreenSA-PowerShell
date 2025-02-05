@@ -24,7 +24,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$DiscountCode = Initialize-RealGreenSAPSDiscountCode  -Id null `
+$DiscountCode = Initialize-RealGreenSaPSDiscountCode  -Id null `
  -DiscountAmount null `
  -IsSurcharge null `
  -Permanent null `

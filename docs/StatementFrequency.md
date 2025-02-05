@@ -8,7 +8,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$StatementFrequency = Initialize-RealGreenSAPSStatementFrequency 
+$StatementFrequency = Initialize-RealGreenSaPSStatementFrequency 
 ```
 
 - Convert the resource to JSON

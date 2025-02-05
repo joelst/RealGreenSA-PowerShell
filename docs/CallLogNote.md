@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$CallLogNote = Initialize-RealGreenSAPSCallLogNote  -Id null `
+$CallLogNote = Initialize-RealGreenSaPSCallLogNote  -Id null `
  -HeaderID null `
  -Date null `
  -Reason null `

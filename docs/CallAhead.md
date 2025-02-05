@@ -16,7 +16,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$CallAhead = Initialize-RealGreenSAPSCallAhead  -Id null `
+$CallAhead = Initialize-RealGreenSaPSCallAhead  -Id null `
  -CallAheadDescription null `
  -Renewable null `
  -Available null `

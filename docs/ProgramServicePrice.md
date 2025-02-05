@@ -21,7 +21,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$ProgramServicePrice = Initialize-RealGreenSAPSProgramServicePrice  -Round null `
+$ProgramServicePrice = Initialize-RealGreenSaPSProgramServicePrice  -Round null `
  -ServiceCode null `
  -ServiceLongName null `
  -GrossPrice null `

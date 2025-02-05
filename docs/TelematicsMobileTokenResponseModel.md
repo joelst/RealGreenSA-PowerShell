@@ -17,7 +17,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$TelematicsMobileTokenResponseModel = Initialize-RealGreenSAPSTelematicsMobileTokenResponseModel  -GpsProcessorHost null `
+$TelematicsMobileTokenResponseModel = Initialize-RealGreenSaPSTelematicsMobileTokenResponseModel  -GpsProcessorHost null `
  -RemoteDeviceKey null `
  -RemoteDeviceId null `
  -Token null `

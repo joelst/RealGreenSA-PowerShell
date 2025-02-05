@@ -8,7 +8,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$ContractPlanStatus = Initialize-RealGreenSAPSContractPlanStatus 
+$ContractPlanStatus = Initialize-RealGreenSaPSContractPlanStatus 
 ```
 
 - Convert the resource to JSON

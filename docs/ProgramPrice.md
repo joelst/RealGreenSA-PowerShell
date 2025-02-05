@@ -20,7 +20,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$ProgramPrice = Initialize-RealGreenSAPSProgramPrice  -CustomerNumber null `
+$ProgramPrice = Initialize-RealGreenSaPSProgramPrice  -CustomerNumber null `
  -Size null `
  -ProgramDefinitionID null `
  -ProgramCode null `

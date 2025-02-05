@@ -17,7 +17,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$SeasonSummaryByRoundCycleResult = Initialize-RealGreenSAPSSeasonSummaryByRoundCycleResult  -TotalScheduled null `
+$SeasonSummaryByRoundCycleResult = Initialize-RealGreenSaPSSeasonSummaryByRoundCycleResult  -TotalScheduled null `
  -ServicedToDate null `
  -YetToBeServiced null `
  -LessCustomersOnHold null `

@@ -17,7 +17,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$ProgramProductionBySalesPersonRequest = Initialize-RealGreenSAPSProgramProductionBySalesPersonRequest  -CompanyIDs null `
+$ProgramProductionBySalesPersonRequest = Initialize-RealGreenSaPSProgramProductionBySalesPersonRequest  -CompanyIDs null `
  -ProgramDefinitionIDs null `
  -EmployeeIDs null `
  -DoneDateRange null `

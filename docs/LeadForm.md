@@ -31,7 +31,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$LeadForm = Initialize-RealGreenSAPSLeadForm  -Name null `
+$LeadForm = Initialize-RealGreenSaPSLeadForm  -Name null `
  -Zipcode null `
  -StreetNumberAndName null `
  -EmailAddress null `

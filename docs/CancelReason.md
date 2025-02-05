@@ -16,7 +16,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$CancelReason = Initialize-RealGreenSAPSCancelReason  -Id null `
+$CancelReason = Initialize-RealGreenSaPSCancelReason  -Id null `
  -LetterID null `
  -CancelCategoryID null `
  -DocumentTemplateID null `

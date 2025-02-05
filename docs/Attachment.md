@@ -16,7 +16,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$Attachment = Initialize-RealGreenSAPSAttachment  -CustNo null `
+$Attachment = Initialize-RealGreenSaPSAttachment  -CustNo null `
  -FileName null `
  -EmpId null `
  -Category null `

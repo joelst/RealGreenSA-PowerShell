@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$Phone = Initialize-RealGreenSAPSPhone  -Number null `
+$Phone = Initialize-RealGreenSaPSPhone  -Number null `
  -Type null `
  -PhoneType null `
  -TypeDescription null `

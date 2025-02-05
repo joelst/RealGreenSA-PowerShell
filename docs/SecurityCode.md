@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$SecurityCode = Initialize-RealGreenSAPSSecurityCode  -Id null `
+$SecurityCode = Initialize-RealGreenSaPSSecurityCode  -Id null `
  -Description null `
  -SecurityString null `
  -AdjustmentLimit null `

@@ -88,7 +88,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$Program = Initialize-RealGreenSAPSProgram  -Id null `
+$Program = Initialize-RealGreenSaPSProgram  -Id null `
  -AverageTime null `
  -AveragePrice null `
  -BillingType null `

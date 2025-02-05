@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$SkipServicesRequest = Initialize-RealGreenSAPSSkipServicesRequest  -DateRange null `
+$SkipServicesRequest = Initialize-RealGreenSaPSSkipServicesRequest  -DateRange null `
  -ServiceCodes null `
  -EmployeeIDs null
 ```

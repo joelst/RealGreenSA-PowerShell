@@ -16,7 +16,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$SeasonSummaryByRoundCycleCriteria = Initialize-RealGreenSAPSSeasonSummaryByRoundCycleCriteria  -CompanyIDs null `
+$SeasonSummaryByRoundCycleCriteria = Initialize-RealGreenSaPSSeasonSummaryByRoundCycleCriteria  -CompanyIDs null `
  -ProgramDefinitionIDs null `
  -RouteCodes null `
  -ResidentialCommercial null `

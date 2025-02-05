@@ -67,7 +67,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$ProgramCodes = Initialize-RealGreenSAPSProgramCodes  -ProgramDefinitionID null `
+$ProgramCodes = Initialize-RealGreenSaPSProgramCodes  -ProgramDefinitionID null `
  -ProgramCode null `
  -Description null `
  -Available null `

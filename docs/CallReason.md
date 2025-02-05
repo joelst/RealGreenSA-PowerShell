@@ -18,7 +18,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$CallReason = Initialize-RealGreenSAPSCallReason  -ActionReasonID null `
+$CallReason = Initialize-RealGreenSaPSCallReason  -ActionReasonID null `
  -ActionReason null `
  -Status null `
  -ContactOrAttempt null `

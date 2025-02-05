@@ -17,7 +17,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$MobileCustomerSearch = Initialize-RealGreenSAPSMobileCustomerSearch  -EmployeeId null `
+$MobileCustomerSearch = Initialize-RealGreenSaPSMobileCustomerSearch  -EmployeeId null `
  -TextSearch null `
  -BranchIDs null `
  -Statuses null `

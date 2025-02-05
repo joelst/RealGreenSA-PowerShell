@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$ProgramCancelReasonStatsCriteria = Initialize-RealGreenSAPSProgramCancelReasonStatsCriteria  -CompanyIDs null `
+$ProgramCancelReasonStatsCriteria = Initialize-RealGreenSaPSProgramCancelReasonStatsCriteria  -CompanyIDs null `
  -ProgramDefinitionIDs null `
  -DateRange null `
  -CustomDateRange null `

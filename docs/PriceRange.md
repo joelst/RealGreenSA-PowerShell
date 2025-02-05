@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$PriceRange = Initialize-RealGreenSAPSPriceRange  -Id null `
+$PriceRange = Initialize-RealGreenSaPSPriceRange  -Id null `
  -Size null `
  -Rate null `
  -PriceTableID null `

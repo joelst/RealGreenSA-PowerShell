@@ -34,7 +34,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$CustomerContactPreferences = Initialize-RealGreenSAPSCustomerContactPreferences  -DontTelemarket null `
+$CustomerContactPreferences = Initialize-RealGreenSaPSCustomerContactPreferences  -DontTelemarket null `
  -DontDirectMail null `
  -DontEmail null `
  -EmailStatements null `

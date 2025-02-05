@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$Suffix = Initialize-RealGreenSAPSSuffix  -Id null `
+$Suffix = Initialize-RealGreenSaPSSuffix  -Id null `
  -FullSuffix null `
  -Alternates null
 ```

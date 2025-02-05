@@ -17,7 +17,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$CustomerProperty = Initialize-RealGreenSAPSCustomerProperty  -Id null `
+$CustomerProperty = Initialize-RealGreenSaPSCustomerProperty  -Id null `
  -InventoryTypeID null `
  -CustomerID null `
  -Quantity null `

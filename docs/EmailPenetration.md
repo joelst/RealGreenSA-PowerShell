@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$EmailPenetration = Initialize-RealGreenSAPSEmailPenetration  -WithEmails null `
+$EmailPenetration = Initialize-RealGreenSaPSEmailPenetration  -WithEmails null `
  -WithoutEmails null `
  -DontEmailMarket null `
  -DontEmailFollowUp null

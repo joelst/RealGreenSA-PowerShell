@@ -18,7 +18,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$CashInRequest = Initialize-RealGreenSAPSCashInRequest  -DateRange null `
+$CashInRequest = Initialize-RealGreenSaPSCashInRequest  -DateRange null `
  -CustomDateRange null `
  -DateType null `
  -PostedBy null `

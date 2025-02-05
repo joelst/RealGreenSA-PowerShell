@@ -18,7 +18,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$PropertyItemType = Initialize-RealGreenSAPSPropertyItemType  -Id null `
+$PropertyItemType = Initialize-RealGreenSaPSPropertyItemType  -Id null `
  -Description null `
  -CategoryId null `
  -UnitOfMeasureId null `

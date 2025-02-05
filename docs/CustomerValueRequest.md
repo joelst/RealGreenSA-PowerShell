@@ -15,7 +15,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$CustomerValueRequest = Initialize-RealGreenSAPSCustomerValueRequest  -CompanyIDs null `
+$CustomerValueRequest = Initialize-RealGreenSaPSCustomerValueRequest  -CompanyIDs null `
  -SourceCodes null `
  -ResidentialCommercial null `
  -Seasons null `

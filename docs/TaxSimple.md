@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$TaxSimple = Initialize-RealGreenSAPSTaxSimple  -Id null `
+$TaxSimple = Initialize-RealGreenSaPSTaxSimple  -Id null `
  -Position null `
  -Description null `
  -Amount null

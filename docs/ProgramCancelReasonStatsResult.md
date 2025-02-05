@@ -18,7 +18,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$ProgramCancelReasonStatsResult = Initialize-RealGreenSAPSProgramCancelReasonStatsResult  -CancelCode null `
+$ProgramCancelReasonStatsResult = Initialize-RealGreenSaPSProgramCancelReasonStatsResult  -CancelCode null `
  -Reason null `
  -CustomerCount null `
  -ProgramSpecialCount null `

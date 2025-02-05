@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$NPSResult = Initialize-RealGreenSAPSNPSResult  -CompanyID null `
+$NPSResult = Initialize-RealGreenSaPSNPSResult  -CompanyID null `
  -Detractors null `
  -Passives null `
  -Promoters null `

@@ -19,7 +19,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$BalanceAnalysis = Initialize-RealGreenSAPSBalanceAnalysis  -CompanyID null `
+$BalanceAnalysis = Initialize-RealGreenSaPSBalanceAnalysis  -CompanyID null `
  -Due030 null `
  -Due3145 null `
  -Due4660 null `

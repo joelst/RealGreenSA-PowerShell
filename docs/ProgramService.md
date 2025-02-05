@@ -15,7 +15,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$ProgramService = Initialize-RealGreenSAPSProgramService  -Id null `
+$ProgramService = Initialize-RealGreenSaPSProgramService  -Id null `
  -ProgramDefinitionID null `
  -ServiceCode null `
  -Round null `

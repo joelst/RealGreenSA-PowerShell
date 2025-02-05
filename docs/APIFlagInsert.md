@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$APIFlagInsert = Initialize-RealGreenSAPSAPIFlagInsert  -Description null `
+$APIFlagInsert = Initialize-RealGreenSaPSAPIFlagInsert  -Description null `
  -Sort null `
  -Internet null `
  -PrintOnInvoice null `

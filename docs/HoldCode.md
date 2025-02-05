@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$HoldCode = Initialize-RealGreenSAPSHoldCode  -Id null `
+$HoldCode = Initialize-RealGreenSaPSHoldCode  -Id null `
  -Available null `
  -Description null `
  -DescriptionFrench null `

@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$BillTypeSummaryCriteria = Initialize-RealGreenSAPSBillTypeSummaryCriteria  -CompanyIDs null `
+$BillTypeSummaryCriteria = Initialize-RealGreenSaPSBillTypeSummaryCriteria  -CompanyIDs null `
  -ProgramDefinitionIDs null
 ```
 

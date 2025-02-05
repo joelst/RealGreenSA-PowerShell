@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$LeadFormResponseObject = Initialize-RealGreenSAPSLeadFormResponseObject  -Success null `
+$LeadFormResponseObject = Initialize-RealGreenSaPSLeadFormResponseObject  -Success null `
  -ResponseMessage null `
  -CustNo null `
  -CurrentCustomerNumbers null

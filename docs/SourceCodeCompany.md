@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$SourceCodeCompany = Initialize-RealGreenSAPSSourceCodeCompany  -Id null `
+$SourceCodeCompany = Initialize-RealGreenSaPSSourceCodeCompany  -Id null `
  -CompanyID null `
  -SourceCode null
 ```

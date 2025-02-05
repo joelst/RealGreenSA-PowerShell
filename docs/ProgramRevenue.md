@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$ProgramRevenue = Initialize-RealGreenSAPSProgramRevenue  -Id null `
+$ProgramRevenue = Initialize-RealGreenSaPSProgramRevenue  -Id null `
  -TotalAmount null `
  -ProgramDiscounts null `
  -ServiceDiscounts null `

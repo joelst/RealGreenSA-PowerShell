@@ -20,7 +20,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$Batch = Initialize-RealGreenSAPSBatch  -Id null `
+$Batch = Initialize-RealGreenSaPSBatch  -Id null `
  -PrintDate null `
  -EmployeeId null `
  -Type null `

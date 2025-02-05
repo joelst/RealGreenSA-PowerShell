@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$ServiceAllocationItem = Initialize-RealGreenSAPSServiceAllocationItem  -HistoryAllocationID null `
+$ServiceAllocationItem = Initialize-RealGreenSaPSServiceAllocationItem  -HistoryAllocationID null `
  -HistoryID null `
  -AmountApplied null `
  -HistoryAmount null `

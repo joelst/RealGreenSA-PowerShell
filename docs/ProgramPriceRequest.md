@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$ProgramPriceRequest = Initialize-RealGreenSAPSProgramPriceRequest  -ProgramDefinitionIDs null `
+$ProgramPriceRequest = Initialize-RealGreenSaPSProgramPriceRequest  -ProgramDefinitionIDs null `
  -CustomerNumber null `
  -Size null `
  -Difficulty null `

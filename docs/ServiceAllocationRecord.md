@@ -16,7 +16,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$ServiceAllocationRecord = Initialize-RealGreenSAPSServiceAllocationRecord  -ServiceID null `
+$ServiceAllocationRecord = Initialize-RealGreenSaPSServiceAllocationRecord  -ServiceID null `
  -InvoiceNumber null `
  -Start null `
  -VarEnd null `

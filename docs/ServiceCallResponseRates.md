@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$ServiceCallResponseRates = Initialize-RealGreenSAPSServiceCallResponseRates  -ServiceCallsScheduled null `
+$ServiceCallResponseRates = Initialize-RealGreenSaPSServiceCallResponseRates  -ServiceCallsScheduled null `
  -ServiceCallsCompleted null `
  -ResponseTime null
 ```

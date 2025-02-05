@@ -8,7 +8,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$PriceByTypes = Initialize-RealGreenSAPSPriceByTypes 
+$PriceByTypes = Initialize-RealGreenSaPSPriceByTypes 
 ```
 
 - Convert the resource to JSON

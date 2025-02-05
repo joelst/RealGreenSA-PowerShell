@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$APIEmployeeInsert = Initialize-RealGreenSAPSAPIEmployeeInsert  -EmployeeID null `
+$APIEmployeeInsert = Initialize-RealGreenSaPSAPIEmployeeInsert  -EmployeeID null `
  -Name null `
  -CompanyID null
 ```

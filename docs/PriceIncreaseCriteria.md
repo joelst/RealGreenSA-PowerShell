@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$PriceIncreaseCriteria = Initialize-RealGreenSAPSPriceIncreaseCriteria  -ProgramIDs null `
+$PriceIncreaseCriteria = Initialize-RealGreenSaPSPriceIncreaseCriteria  -ProgramIDs null `
  -IncreaseAmount null `
  -IsPercentIncrease null `
  -OnlyIncreaseRenewalPrice null

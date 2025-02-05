@@ -17,7 +17,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$SourceCodeInsert = Initialize-RealGreenSAPSSourceCodeInsert  -SourceDescription null `
+$SourceCodeInsert = Initialize-RealGreenSaPSSourceCodeInsert  -SourceDescription null `
  -Available null `
  -SourceAbbreviation null `
  -ActiveOrPassive null `

@@ -16,7 +16,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$LeadSourceSummaryRequest = Initialize-RealGreenSAPSLeadSourceSummaryRequest  -CompanyIDs null `
+$LeadSourceSummaryRequest = Initialize-RealGreenSaPSLeadSourceSummaryRequest  -CompanyIDs null `
  -ProgramDefinitionIDs null `
  -SourceCodes null `
  -EstimateRequestedDateRange null `

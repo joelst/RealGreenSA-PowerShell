@@ -19,7 +19,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$TimeSpan = Initialize-RealGreenSAPSTimeSpan  -Ticks null `
+$TimeSpan = Initialize-RealGreenSaPSTimeSpan  -Ticks null `
  -Days null `
  -Hours null `
  -Milliseconds null `

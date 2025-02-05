@@ -17,7 +17,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$CreditHoldSummary = Initialize-RealGreenSAPSCreditHoldSummary  -CustomerCount null `
+$CreditHoldSummary = Initialize-RealGreenSaPSCreditHoldSummary  -CustomerCount null `
  -Due1 null `
  -Due2 null `
  -Due3 null `

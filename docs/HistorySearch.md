@@ -20,7 +20,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$HistorySearch = Initialize-RealGreenSAPSHistorySearch  -Records null `
+$HistorySearch = Initialize-RealGreenSaPSHistorySearch  -Records null `
  -Offset null `
  -CustomerNumbers null `
  -CompanyIDs null `

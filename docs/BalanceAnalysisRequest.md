@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$BalanceAnalysisRequest = Initialize-RealGreenSAPSBalanceAnalysisRequest  -CompanyID null `
+$BalanceAnalysisRequest = Initialize-RealGreenSaPSBalanceAnalysisRequest  -CompanyID null `
  -CustomerType null
 ```
 

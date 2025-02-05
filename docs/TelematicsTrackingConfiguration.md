@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$TelematicsTrackingConfiguration = Initialize-RealGreenSAPSTelematicsTrackingConfiguration  -MoveSampleIntervalSec null `
+$TelematicsTrackingConfiguration = Initialize-RealGreenSaPSTelematicsTrackingConfiguration  -MoveSampleIntervalSec null `
  -IdleSampleIntervalSec null `
  -CompassDegrees null `
  -SquashingIntervalSec null

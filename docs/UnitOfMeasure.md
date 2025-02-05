@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$UnitOfMeasure = Initialize-RealGreenSAPSUnitOfMeasure  -Id null `
+$UnitOfMeasure = Initialize-RealGreenSaPSUnitOfMeasure  -Id null `
  -Description null `
  -IsoCode null
 ```

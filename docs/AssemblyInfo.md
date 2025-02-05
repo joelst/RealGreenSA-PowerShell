@@ -9,7 +9,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$AssemblyInfo = Initialize-RealGreenSAPSAssemblyInfo  -VersionDate null
+$AssemblyInfo = Initialize-RealGreenSaPSAssemblyInfo  -VersionDate null
 ```
 
 - Convert the resource to JSON

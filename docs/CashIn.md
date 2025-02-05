@@ -18,7 +18,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$CashIn = Initialize-RealGreenSAPSCashIn  -TotalPaymentsCount null `
+$CashIn = Initialize-RealGreenSaPSCashIn  -TotalPaymentsCount null `
  -TotalPaymentDollar null `
  -CreditCardCount null `
  -CreditCardDollars null `

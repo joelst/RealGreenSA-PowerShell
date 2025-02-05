@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$Operation = Initialize-RealGreenSAPSOperation  -OperationType null `
+$Operation = Initialize-RealGreenSaPSOperation  -OperationType null `
  -Path null `
  -Op null `
  -VarFrom null `

@@ -1,27 +1,27 @@
-# RealGreenSAPS.RealGreenSAPS\Api.RgSaProgramApi
+# RealGreenSaPS.RealGreenSaPS\Api.RGSAProgramApi
 
 All URIs are relative to *https://saapi.realgreen.com*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**Invoke-RgSaProgramIdGet**](RgSaProgramApi.md#Invoke-RgSaProgramIdGet) | **GET** /Program/{id} | Returns a single program record that correseponds to the provided ID
-[**Invoke-RgSaProgramIdPatch**](RgSaProgramApi.md#Invoke-RgSaProgramIdPatch) | **PATCH** /Program/{id} | Allows updating a program object without passing the entire object.
-[**Invoke-RgSaProgramPackageAllGet**](RgSaProgramApi.md#Invoke-RgSaProgramPackageAllGet) | **GET** /Program/Package/All | Returns all package information.
-[**Invoke-RgSaProgramPackageIdGet**](RgSaProgramApi.md#Invoke-RgSaProgramPackageIdGet) | **GET** /Program/Package/{id} | Returns detailed package information for the package with the specified ID.
-[**Invoke-RgSaProgramPackagePost**](RgSaProgramApi.md#Invoke-RgSaProgramPackagePost) | **POST** /Program/Package | Adds the programs/special jobs contained within the package to the customers account.
-[**Invoke-RgSaProgramPost**](RgSaProgramApi.md#Invoke-RgSaProgramPost) | **POST** /Program | Inserts and program and it&#39;s corresponding services.
-[**Invoke-RgSaProgramPut**](RgSaProgramApi.md#Invoke-RgSaProgramPut) | **PUT** /Program | Update a program record using the entire model.
-[**Invoke-RgSaProgramQuoteBuildPost**](RgSaProgramApi.md#Invoke-RgSaProgramQuoteBuildPost) | **POST** /Program/Quote/Build | Returns an accurate pricing quote for the supplied program definition IDs
-[**Invoke-RgSaProgramRevenuePost**](RgSaProgramApi.md#Invoke-RgSaProgramRevenuePost) | **POST** /Program/Revenue | Returns gross price, discount amounts, and net revenue for the specified programs.
-[**Invoke-RgSaProgramSearchGet**](RgSaProgramApi.md#Invoke-RgSaProgramSearchGet) | **GET** /Program/Search | Perform a search for all customer programs and special jobs that match the provided criteria.
-[**Invoke-RgSaProgramSearchPost**](RgSaProgramApi.md#Invoke-RgSaProgramSearchPost) | **POST** /Program/Search | Perform a search for all customer programs and special jobs that match the provided criteria.
-[**Invoke-RgSaProgramSimpleBuildPost**](RgSaProgramApi.md#Invoke-RgSaProgramSimpleBuildPost) | **POST** /Program/Simple/Build | Builds a program and its service records.
-[**Invoke-RgSaProgramSimplePost**](RgSaProgramApi.md#Invoke-RgSaProgramSimplePost) | **POST** /Program/Simple | Inserts a program using minimum requirements.
+[**Invoke-RGSAProgramIdGet**](RGSAProgramApi.md#Invoke-RGSAProgramIdGet) | **GET** /Program/{id} | Returns a single program record that correseponds to the provided ID
+[**Invoke-RGSAProgramIdPatch**](RGSAProgramApi.md#Invoke-RGSAProgramIdPatch) | **PATCH** /Program/{id} | Allows updating a program object without passing the entire object.
+[**Invoke-RGSAProgramPackageAllGet**](RGSAProgramApi.md#Invoke-RGSAProgramPackageAllGet) | **GET** /Program/Package/All | Returns all package information.
+[**Invoke-RGSAProgramPackageIdGet**](RGSAProgramApi.md#Invoke-RGSAProgramPackageIdGet) | **GET** /Program/Package/{id} | Returns detailed package information for the package with the specified ID.
+[**Invoke-RGSAProgramPackagePost**](RGSAProgramApi.md#Invoke-RGSAProgramPackagePost) | **POST** /Program/Package | Adds the programs/special jobs contained within the package to the customers account.
+[**Invoke-RGSAProgramPost**](RGSAProgramApi.md#Invoke-RGSAProgramPost) | **POST** /Program | Inserts and program and it&#39;s corresponding services.
+[**Invoke-RGSAProgramPut**](RGSAProgramApi.md#Invoke-RGSAProgramPut) | **PUT** /Program | Update a program record using the entire model.
+[**Invoke-RGSAProgramQuoteBuildPost**](RGSAProgramApi.md#Invoke-RGSAProgramQuoteBuildPost) | **POST** /Program/Quote/Build | Returns an accurate pricing quote for the supplied program definition IDs
+[**Invoke-RGSAProgramRevenuePost**](RGSAProgramApi.md#Invoke-RGSAProgramRevenuePost) | **POST** /Program/Revenue | Returns gross price, discount amounts, and net revenue for the specified programs.
+[**Invoke-RGSAProgramSearchGet**](RGSAProgramApi.md#Invoke-RGSAProgramSearchGet) | **GET** /Program/Search | Perform a search for all customer programs and special jobs that match the provided criteria.
+[**Invoke-RGSAProgramSearchPost**](RGSAProgramApi.md#Invoke-RGSAProgramSearchPost) | **POST** /Program/Search | Perform a search for all customer programs and special jobs that match the provided criteria.
+[**Invoke-RGSAProgramSimpleBuildPost**](RGSAProgramApi.md#Invoke-RGSAProgramSimpleBuildPost) | **POST** /Program/Simple/Build | Builds a program and its service records.
+[**Invoke-RGSAProgramSimplePost**](RGSAProgramApi.md#Invoke-RGSAProgramSimplePost) | **POST** /Program/Simple | Inserts a program using minimum requirements.
 
 
-<a id="Invoke-RgSaProgramIdGet"></a>
-# **Invoke-RgSaProgramIdGet**
-> Program Invoke-RgSaProgramIdGet<br>
+<a id="Invoke-RGSAProgramIdGet"></a>
+# **Invoke-RGSAProgramIdGet**
+> Program Invoke-RGSAProgramIdGet<br>
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[-Id] <Int32><br>
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[-ApiKey] <String><br>
 
@@ -34,9 +34,9 @@ $ApiKey = "MyApiKey" # String | API Key
 
 # Returns a single program record that correseponds to the provided ID
 try {
-    $Result = Invoke-RgSaProgramIdGet -Id $Id -ApiKey $ApiKey
+    $Result = Invoke-RGSAProgramIdGet -Id $Id -ApiKey $ApiKey
 } catch {
-    Write-Host ("Exception occurred when calling Invoke-RgSaProgramIdGet: {0}" -f ($_.ErrorDetails | ConvertFrom-Json))
+    Write-Host ("Exception occurred when calling Invoke-RGSAProgramIdGet: {0}" -f ($_.ErrorDetails | ConvertFrom-Json))
     Write-Host ("Response headers: {0}" -f ($_.Exception.Response.Headers | ConvertTo-Json))
 }
 ```
@@ -63,9 +63,9 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-<a id="Invoke-RgSaProgramIdPatch"></a>
-# **Invoke-RgSaProgramIdPatch**
-> Program Invoke-RgSaProgramIdPatch<br>
+<a id="Invoke-RGSAProgramIdPatch"></a>
+# **Invoke-RGSAProgramIdPatch**
+> Program Invoke-RGSAProgramIdPatch<br>
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[-Id] <Int32><br>
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[-ApiKey] <String><br>
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[-Operation] <PSCustomObject[]><br>
@@ -80,9 +80,9 @@ $Operation = Initialize-Operation -OperationType "Add" -Path "MyPath" -Op "MyOp"
 
 # Allows updating a program object without passing the entire object.
 try {
-    $Result = Invoke-RgSaProgramIdPatch -Id $Id -ApiKey $ApiKey -Operation $Operation
+    $Result = Invoke-RGSAProgramIdPatch -Id $Id -ApiKey $ApiKey -Operation $Operation
 } catch {
-    Write-Host ("Exception occurred when calling Invoke-RgSaProgramIdPatch: {0}" -f ($_.ErrorDetails | ConvertFrom-Json))
+    Write-Host ("Exception occurred when calling Invoke-RGSAProgramIdPatch: {0}" -f ($_.ErrorDetails | ConvertFrom-Json))
     Write-Host ("Response headers: {0}" -f ($_.Exception.Response.Headers | ConvertTo-Json))
 }
 ```
@@ -110,9 +110,9 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-<a id="Invoke-RgSaProgramPackageAllGet"></a>
-# **Invoke-RgSaProgramPackageAllGet**
-> Package[] Invoke-RgSaProgramPackageAllGet<br>
+<a id="Invoke-RGSAProgramPackageAllGet"></a>
+# **Invoke-RGSAProgramPackageAllGet**
+> Package[] Invoke-RGSAProgramPackageAllGet<br>
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[-ApiKey] <String><br>
 
 Returns all package information.
@@ -123,9 +123,9 @@ $ApiKey = "MyApiKey" # String | API Key
 
 # Returns all package information.
 try {
-    $Result = Invoke-RgSaProgramPackageAllGet -ApiKey $ApiKey
+    $Result = Invoke-RGSAProgramPackageAllGet -ApiKey $ApiKey
 } catch {
-    Write-Host ("Exception occurred when calling Invoke-RgSaProgramPackageAllGet: {0}" -f ($_.ErrorDetails | ConvertFrom-Json))
+    Write-Host ("Exception occurred when calling Invoke-RGSAProgramPackageAllGet: {0}" -f ($_.ErrorDetails | ConvertFrom-Json))
     Write-Host ("Response headers: {0}" -f ($_.Exception.Response.Headers | ConvertTo-Json))
 }
 ```
@@ -151,9 +151,9 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-<a id="Invoke-RgSaProgramPackageIdGet"></a>
-# **Invoke-RgSaProgramPackageIdGet**
-> FullPackage Invoke-RgSaProgramPackageIdGet<br>
+<a id="Invoke-RGSAProgramPackageIdGet"></a>
+# **Invoke-RGSAProgramPackageIdGet**
+> FullPackage Invoke-RGSAProgramPackageIdGet<br>
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[-Id] <Int32><br>
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[-ApiKey] <String><br>
 
@@ -166,9 +166,9 @@ $ApiKey = "MyApiKey" # String | API Key
 
 # Returns detailed package information for the package with the specified ID.
 try {
-    $Result = Invoke-RgSaProgramPackageIdGet -Id $Id -ApiKey $ApiKey
+    $Result = Invoke-RGSAProgramPackageIdGet -Id $Id -ApiKey $ApiKey
 } catch {
-    Write-Host ("Exception occurred when calling Invoke-RgSaProgramPackageIdGet: {0}" -f ($_.ErrorDetails | ConvertFrom-Json))
+    Write-Host ("Exception occurred when calling Invoke-RGSAProgramPackageIdGet: {0}" -f ($_.ErrorDetails | ConvertFrom-Json))
     Write-Host ("Response headers: {0}" -f ($_.Exception.Response.Headers | ConvertTo-Json))
 }
 ```
@@ -195,9 +195,9 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-<a id="Invoke-RgSaProgramPackagePost"></a>
-# **Invoke-RgSaProgramPackagePost**
-> Int32[][] Invoke-RgSaProgramPackagePost<br>
+<a id="Invoke-RGSAProgramPackagePost"></a>
+# **Invoke-RGSAProgramPackagePost**
+> Int32[][] Invoke-RGSAProgramPackagePost<br>
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[-ApiKey] <String><br>
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[-SimplePackageDTO] <PSCustomObject><br>
 
@@ -210,9 +210,9 @@ $SimplePackageDTO = Initialize-SimplePackageDTO -CustNo 0 -Size 0 -Route "MyRout
 
 # Adds the programs/special jobs contained within the package to the customers account.
 try {
-    $Result = Invoke-RgSaProgramPackagePost -ApiKey $ApiKey -SimplePackageDTO $SimplePackageDTO
+    $Result = Invoke-RGSAProgramPackagePost -ApiKey $ApiKey -SimplePackageDTO $SimplePackageDTO
 } catch {
-    Write-Host ("Exception occurred when calling Invoke-RgSaProgramPackagePost: {0}" -f ($_.ErrorDetails | ConvertFrom-Json))
+    Write-Host ("Exception occurred when calling Invoke-RGSAProgramPackagePost: {0}" -f ($_.ErrorDetails | ConvertFrom-Json))
     Write-Host ("Response headers: {0}" -f ($_.Exception.Response.Headers | ConvertTo-Json))
 }
 ```
@@ -239,9 +239,9 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-<a id="Invoke-RgSaProgramPost"></a>
-# **Invoke-RgSaProgramPost**
-> Int32 Invoke-RgSaProgramPost<br>
+<a id="Invoke-RGSAProgramPost"></a>
+# **Invoke-RGSAProgramPost**
+> Int32 Invoke-RGSAProgramPost<br>
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[-ApiKey] <String><br>
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[-EmployeeId] <String><br>
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[-FullProgram] <PSCustomObject><br>
@@ -262,9 +262,9 @@ $FullProgram = Initialize-FullProgram -Id 0 -AverageTime 0 -AveragePrice 0 -Bill
 
 # Inserts and program and it's corresponding services.
 try {
-    $Result = Invoke-RgSaProgramPost -ApiKey $ApiKey -EmployeeId $EmployeeId -FullProgram $FullProgram
+    $Result = Invoke-RGSAProgramPost -ApiKey $ApiKey -EmployeeId $EmployeeId -FullProgram $FullProgram
 } catch {
-    Write-Host ("Exception occurred when calling Invoke-RgSaProgramPost: {0}" -f ($_.ErrorDetails | ConvertFrom-Json))
+    Write-Host ("Exception occurred when calling Invoke-RGSAProgramPost: {0}" -f ($_.ErrorDetails | ConvertFrom-Json))
     Write-Host ("Response headers: {0}" -f ($_.Exception.Response.Headers | ConvertTo-Json))
 }
 ```
@@ -292,9 +292,9 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-<a id="Invoke-RgSaProgramPut"></a>
-# **Invoke-RgSaProgramPut**
-> Boolean Invoke-RgSaProgramPut<br>
+<a id="Invoke-RGSAProgramPut"></a>
+# **Invoke-RGSAProgramPut**
+> Boolean Invoke-RGSAProgramPut<br>
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[-ApiKey] <String><br>
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[-Program] <PSCustomObject><br>
 
@@ -307,9 +307,9 @@ $Program = Initialize-Program -Id 0 -AverageTime 0 -AveragePrice 0 -BillingType 
 
 # Update a program record using the entire model.
 try {
-    $Result = Invoke-RgSaProgramPut -ApiKey $ApiKey -Program $Program
+    $Result = Invoke-RGSAProgramPut -ApiKey $ApiKey -Program $Program
 } catch {
-    Write-Host ("Exception occurred when calling Invoke-RgSaProgramPut: {0}" -f ($_.ErrorDetails | ConvertFrom-Json))
+    Write-Host ("Exception occurred when calling Invoke-RGSAProgramPut: {0}" -f ($_.ErrorDetails | ConvertFrom-Json))
     Write-Host ("Response headers: {0}" -f ($_.Exception.Response.Headers | ConvertTo-Json))
 }
 ```
@@ -336,9 +336,9 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-<a id="Invoke-RgSaProgramQuoteBuildPost"></a>
-# **Invoke-RgSaProgramQuoteBuildPost**
-> ProgramPrice[] Invoke-RgSaProgramQuoteBuildPost<br>
+<a id="Invoke-RGSAProgramQuoteBuildPost"></a>
+# **Invoke-RGSAProgramQuoteBuildPost**
+> ProgramPrice[] Invoke-RGSAProgramQuoteBuildPost<br>
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[-ApiKey] <String><br>
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[-ProgramPriceRequest] <PSCustomObject><br>
 
@@ -351,9 +351,9 @@ $ProgramPriceRequest = Initialize-ProgramPriceRequest -ProgramDefinitionIDs 0 -C
 
 # Returns an accurate pricing quote for the supplied program definition IDs
 try {
-    $Result = Invoke-RgSaProgramQuoteBuildPost -ApiKey $ApiKey -ProgramPriceRequest $ProgramPriceRequest
+    $Result = Invoke-RGSAProgramQuoteBuildPost -ApiKey $ApiKey -ProgramPriceRequest $ProgramPriceRequest
 } catch {
-    Write-Host ("Exception occurred when calling Invoke-RgSaProgramQuoteBuildPost: {0}" -f ($_.ErrorDetails | ConvertFrom-Json))
+    Write-Host ("Exception occurred when calling Invoke-RGSAProgramQuoteBuildPost: {0}" -f ($_.ErrorDetails | ConvertFrom-Json))
     Write-Host ("Response headers: {0}" -f ($_.Exception.Response.Headers | ConvertTo-Json))
 }
 ```
@@ -380,9 +380,9 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-<a id="Invoke-RgSaProgramRevenuePost"></a>
-# **Invoke-RgSaProgramRevenuePost**
-> ProgramRevenue[] Invoke-RgSaProgramRevenuePost<br>
+<a id="Invoke-RGSAProgramRevenuePost"></a>
+# **Invoke-RGSAProgramRevenuePost**
+> ProgramRevenue[] Invoke-RGSAProgramRevenuePost<br>
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[-ApiKey] <String><br>
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[-ProgramID] <PSCustomObject><br>
 
@@ -395,9 +395,9 @@ $ProgramID = Initialize-ProgramID -ProgramIDs 0 # ProgramID |  (optional)
 
 # Returns gross price, discount amounts, and net revenue for the specified programs.
 try {
-    $Result = Invoke-RgSaProgramRevenuePost -ApiKey $ApiKey -ProgramID $ProgramID
+    $Result = Invoke-RGSAProgramRevenuePost -ApiKey $ApiKey -ProgramID $ProgramID
 } catch {
-    Write-Host ("Exception occurred when calling Invoke-RgSaProgramRevenuePost: {0}" -f ($_.ErrorDetails | ConvertFrom-Json))
+    Write-Host ("Exception occurred when calling Invoke-RGSAProgramRevenuePost: {0}" -f ($_.ErrorDetails | ConvertFrom-Json))
     Write-Host ("Response headers: {0}" -f ($_.Exception.Response.Headers | ConvertTo-Json))
 }
 ```
@@ -424,9 +424,9 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-<a id="Invoke-RgSaProgramSearchGet"></a>
-# **Invoke-RgSaProgramSearchGet**
-> Program[] Invoke-RgSaProgramSearchGet<br>
+<a id="Invoke-RGSAProgramSearchGet"></a>
+# **Invoke-RGSAProgramSearchGet**
+> Program[] Invoke-RGSAProgramSearchGet<br>
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[-ApiKey] <String><br>
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[-ID] <String><br>
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[-CustomerNumber] <String><br>
@@ -645,9 +645,9 @@ $UpdatedMaxValue = (Get-Date) # System.DateTime |  (optional)
 
 # Perform a search for all customer programs and special jobs that match the provided criteria.
 try {
-    $Result = Invoke-RgSaProgramSearchGet -ApiKey $ApiKey -ID $ID -CustomerNumber $CustomerNumber -Status $Status -ProgramDefinitionID $ProgramDefinitionID -SizeMinValue $SizeMinValue -SizeMaxValue $SizeMaxValue -SourceCode $SourceCode -DateSoldMinValue $DateSoldMinValue -DateSoldMaxValue $DateSoldMaxValue -TechnicianNote $TechnicianNote -TechnicianNoteExpirationMinValue $TechnicianNoteExpirationMinValue -TechnicianNoteExpirationMaxValue $TechnicianNoteExpirationMaxValue -CustomerNote $CustomerNote -CustomerNoteExpirationMinValue $CustomerNoteExpirationMinValue -CustomerNoteExpirationMaxValue $CustomerNoteExpirationMaxValue -EstimateRequestDateMinValue $EstimateRequestDateMinValue -EstimateRequestDateMaxValue $EstimateRequestDateMaxValue -Route $Route -DayCode $DayCode -Sequence $Sequence -SoldBy1MinValue $SoldBy1MinValue -SoldBy1MaxValue $SoldBy1MaxValue -SoldBy2MinValue $SoldBy2MinValue -SoldBy2MaxValue $SoldBy2MaxValue -DiscountCode $DiscountCode -StandardPriceMinValue $StandardPriceMinValue -StandardPriceMaxValue $StandardPriceMaxValue -AveragePriceMinValue $AveragePriceMinValue -AveragePriceMaxValue $AveragePriceMaxValue -PriceMinValue $PriceMinValue -PriceMaxValue $PriceMaxValue -NumberOfServicesMinValue $NumberOfServicesMinValue -NumberOfServicesMaxValue $NumberOfServicesMaxValue -BillingType $BillingType -RejectCode $RejectCode -RejectDateMinValue $RejectDateMinValue -RejectDateMaxValue $RejectDateMaxValue -CancelCode $CancelCode -CancelDateMinValue $CancelDateMinValue -CancelDateMaxValue $CancelDateMaxValue -CanceledBy $CanceledBy -HoldCOde $HoldCOde -HoldBeginMinValue $HoldBeginMinValue -HoldBeginMaxValue $HoldBeginMaxValue -HoldDateMinValue $HoldDateMinValue -HoldDateMaxValue $HoldDateMaxValue -LatestDependentServiceCompletionDateMinValue $LatestDependentServiceCompletionDateMinValue -LatestDependentServiceCompletionDateMaxValue $LatestDependentServiceCompletionDateMaxValue -EstimateRequestTakenBy $EstimateRequestTakenBy -EstimatedBy $EstimatedBy -EstimatePrintedMinValue $EstimatePrintedMinValue -EstimatePrintedMaxValue $EstimatePrintedMaxValue -EstimateGivenMinValue $EstimateGivenMinValue -EstimateGivenMaxValue $EstimateGivenMaxValue -ContactDateMinValue $ContactDateMinValue -ContactDateMaxValue $ContactDateMaxValue -CallBackDateMinValue $CallBackDateMinValue -CallBackDateMaxValue $CallBackDateMaxValue -CustomerLetterID $CustomerLetterID -IncludeInConfirmationLetter $IncludeInConfirmationLetter -AverageTimeMinValue $AverageTimeMinValue -AverageTimeMaxValue $AverageTimeMaxValue -Complete $Complete -Repeat $Repeat -RepeatEvery $RepeatEvery -EndOnMinValue $EndOnMinValue -EndOnMaxValue $EndOnMaxValue -RepeatBy $RepeatBy -CallAhead $CallAhead -ContractID $ContractID -MaximumRepetitions $MaximumRepetitions -DoneToDateMinValue $DoneToDateMinValue -DoneToDateMaxValue $DoneToDateMaxValue -IsAutoRenew $IsAutoRenew -NextDateMinValue $NextDateMinValue -NextDateMaxValue $NextDateMaxValue -TemporaryRoute $TemporaryRoute -TemporarySequence $TemporarySequence -TemporaryDaycode $TemporaryDaycode -EstimateRequestedBy $EstimateRequestedBy -EstimateReferredBy $EstimateReferredBy -LastPriceChangeMinValue $LastPriceChangeMinValue -LastPriceChangeMaxValue $LastPriceChangeMaxValue -ServiceYearMinValue $ServiceYearMinValue -ServiceYearMaxValue $ServiceYearMaxValue -DifficultyMinValue $DifficultyMinValue -DifficultyMaxValue $DifficultyMaxValue -ConfirmationDateMinValue $ConfirmationDateMinValue -ConfirmationDateMaxValue $ConfirmationDateMaxValue -PurchaseOrderNumber $PurchaseOrderNumber -ConfirmedBy $ConfirmedBy -IsRenewed $IsRenewed -WorkOrderPricing $WorkOrderPricing -IsFullProgram $IsFullProgram -PaymentPlanByEmployee $PaymentPlanByEmployee -PaymentPlanDateMinValue $PaymentPlanDateMinValue -PaymentPlanDateMaxValue $PaymentPlanDateMaxValue -LockSchedule $LockSchedule -Records $Records -Offset $Offset -CreatedMinValue $CreatedMinValue -CreatedMaxValue $CreatedMaxValue -UpdatedMinValue $UpdatedMinValue -UpdatedMaxValue $UpdatedMaxValue
+    $Result = Invoke-RGSAProgramSearchGet -ApiKey $ApiKey -ID $ID -CustomerNumber $CustomerNumber -Status $Status -ProgramDefinitionID $ProgramDefinitionID -SizeMinValue $SizeMinValue -SizeMaxValue $SizeMaxValue -SourceCode $SourceCode -DateSoldMinValue $DateSoldMinValue -DateSoldMaxValue $DateSoldMaxValue -TechnicianNote $TechnicianNote -TechnicianNoteExpirationMinValue $TechnicianNoteExpirationMinValue -TechnicianNoteExpirationMaxValue $TechnicianNoteExpirationMaxValue -CustomerNote $CustomerNote -CustomerNoteExpirationMinValue $CustomerNoteExpirationMinValue -CustomerNoteExpirationMaxValue $CustomerNoteExpirationMaxValue -EstimateRequestDateMinValue $EstimateRequestDateMinValue -EstimateRequestDateMaxValue $EstimateRequestDateMaxValue -Route $Route -DayCode $DayCode -Sequence $Sequence -SoldBy1MinValue $SoldBy1MinValue -SoldBy1MaxValue $SoldBy1MaxValue -SoldBy2MinValue $SoldBy2MinValue -SoldBy2MaxValue $SoldBy2MaxValue -DiscountCode $DiscountCode -StandardPriceMinValue $StandardPriceMinValue -StandardPriceMaxValue $StandardPriceMaxValue -AveragePriceMinValue $AveragePriceMinValue -AveragePriceMaxValue $AveragePriceMaxValue -PriceMinValue $PriceMinValue -PriceMaxValue $PriceMaxValue -NumberOfServicesMinValue $NumberOfServicesMinValue -NumberOfServicesMaxValue $NumberOfServicesMaxValue -BillingType $BillingType -RejectCode $RejectCode -RejectDateMinValue $RejectDateMinValue -RejectDateMaxValue $RejectDateMaxValue -CancelCode $CancelCode -CancelDateMinValue $CancelDateMinValue -CancelDateMaxValue $CancelDateMaxValue -CanceledBy $CanceledBy -HoldCOde $HoldCOde -HoldBeginMinValue $HoldBeginMinValue -HoldBeginMaxValue $HoldBeginMaxValue -HoldDateMinValue $HoldDateMinValue -HoldDateMaxValue $HoldDateMaxValue -LatestDependentServiceCompletionDateMinValue $LatestDependentServiceCompletionDateMinValue -LatestDependentServiceCompletionDateMaxValue $LatestDependentServiceCompletionDateMaxValue -EstimateRequestTakenBy $EstimateRequestTakenBy -EstimatedBy $EstimatedBy -EstimatePrintedMinValue $EstimatePrintedMinValue -EstimatePrintedMaxValue $EstimatePrintedMaxValue -EstimateGivenMinValue $EstimateGivenMinValue -EstimateGivenMaxValue $EstimateGivenMaxValue -ContactDateMinValue $ContactDateMinValue -ContactDateMaxValue $ContactDateMaxValue -CallBackDateMinValue $CallBackDateMinValue -CallBackDateMaxValue $CallBackDateMaxValue -CustomerLetterID $CustomerLetterID -IncludeInConfirmationLetter $IncludeInConfirmationLetter -AverageTimeMinValue $AverageTimeMinValue -AverageTimeMaxValue $AverageTimeMaxValue -Complete $Complete -Repeat $Repeat -RepeatEvery $RepeatEvery -EndOnMinValue $EndOnMinValue -EndOnMaxValue $EndOnMaxValue -RepeatBy $RepeatBy -CallAhead $CallAhead -ContractID $ContractID -MaximumRepetitions $MaximumRepetitions -DoneToDateMinValue $DoneToDateMinValue -DoneToDateMaxValue $DoneToDateMaxValue -IsAutoRenew $IsAutoRenew -NextDateMinValue $NextDateMinValue -NextDateMaxValue $NextDateMaxValue -TemporaryRoute $TemporaryRoute -TemporarySequence $TemporarySequence -TemporaryDaycode $TemporaryDaycode -EstimateRequestedBy $EstimateRequestedBy -EstimateReferredBy $EstimateReferredBy -LastPriceChangeMinValue $LastPriceChangeMinValue -LastPriceChangeMaxValue $LastPriceChangeMaxValue -ServiceYearMinValue $ServiceYearMinValue -ServiceYearMaxValue $ServiceYearMaxValue -DifficultyMinValue $DifficultyMinValue -DifficultyMaxValue $DifficultyMaxValue -ConfirmationDateMinValue $ConfirmationDateMinValue -ConfirmationDateMaxValue $ConfirmationDateMaxValue -PurchaseOrderNumber $PurchaseOrderNumber -ConfirmedBy $ConfirmedBy -IsRenewed $IsRenewed -WorkOrderPricing $WorkOrderPricing -IsFullProgram $IsFullProgram -PaymentPlanByEmployee $PaymentPlanByEmployee -PaymentPlanDateMinValue $PaymentPlanDateMinValue -PaymentPlanDateMaxValue $PaymentPlanDateMaxValue -LockSchedule $LockSchedule -Records $Records -Offset $Offset -CreatedMinValue $CreatedMinValue -CreatedMaxValue $CreatedMaxValue -UpdatedMinValue $UpdatedMinValue -UpdatedMaxValue $UpdatedMaxValue
 } catch {
-    Write-Host ("Exception occurred when calling Invoke-RgSaProgramSearchGet: {0}" -f ($_.ErrorDetails | ConvertFrom-Json))
+    Write-Host ("Exception occurred when calling Invoke-RGSAProgramSearchGet: {0}" -f ($_.ErrorDetails | ConvertFrom-Json))
     Write-Host ("Response headers: {0}" -f ($_.Exception.Response.Headers | ConvertTo-Json))
 }
 ```
@@ -777,9 +777,9 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-<a id="Invoke-RgSaProgramSearchPost"></a>
-# **Invoke-RgSaProgramSearchPost**
-> Program[] Invoke-RgSaProgramSearchPost<br>
+<a id="Invoke-RGSAProgramSearchPost"></a>
+# **Invoke-RGSAProgramSearchPost**
+> Program[] Invoke-RGSAProgramSearchPost<br>
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[-ApiKey] <String><br>
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[-ProgramSearch] <PSCustomObject><br>
 
@@ -796,9 +796,9 @@ $ProgramSearch = Initialize-ProgramSearch -Id 0 -CustomerNumber 0 -Status "MySta
 
 # Perform a search for all customer programs and special jobs that match the provided criteria.
 try {
-    $Result = Invoke-RgSaProgramSearchPost -ApiKey $ApiKey -ProgramSearch $ProgramSearch
+    $Result = Invoke-RGSAProgramSearchPost -ApiKey $ApiKey -ProgramSearch $ProgramSearch
 } catch {
-    Write-Host ("Exception occurred when calling Invoke-RgSaProgramSearchPost: {0}" -f ($_.ErrorDetails | ConvertFrom-Json))
+    Write-Host ("Exception occurred when calling Invoke-RGSAProgramSearchPost: {0}" -f ($_.ErrorDetails | ConvertFrom-Json))
     Write-Host ("Response headers: {0}" -f ($_.Exception.Response.Headers | ConvertTo-Json))
 }
 ```
@@ -825,9 +825,9 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-<a id="Invoke-RgSaProgramSimpleBuildPost"></a>
-# **Invoke-RgSaProgramSimpleBuildPost**
-> FullProgram Invoke-RgSaProgramSimpleBuildPost<br>
+<a id="Invoke-RGSAProgramSimpleBuildPost"></a>
+# **Invoke-RGSAProgramSimpleBuildPost**
+> FullProgram Invoke-RGSAProgramSimpleBuildPost<br>
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[-ApiKey] <String><br>
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[-SimpleProgramDTO] <PSCustomObject><br>
 
@@ -840,9 +840,9 @@ $SimpleProgramDTO = Initialize-SimpleProgramDTO -CustNo 0 -Size 0 -Route "MyRout
 
 # Builds a program and its service records.
 try {
-    $Result = Invoke-RgSaProgramSimpleBuildPost -ApiKey $ApiKey -SimpleProgramDTO $SimpleProgramDTO
+    $Result = Invoke-RGSAProgramSimpleBuildPost -ApiKey $ApiKey -SimpleProgramDTO $SimpleProgramDTO
 } catch {
-    Write-Host ("Exception occurred when calling Invoke-RgSaProgramSimpleBuildPost: {0}" -f ($_.ErrorDetails | ConvertFrom-Json))
+    Write-Host ("Exception occurred when calling Invoke-RGSAProgramSimpleBuildPost: {0}" -f ($_.ErrorDetails | ConvertFrom-Json))
     Write-Host ("Response headers: {0}" -f ($_.Exception.Response.Headers | ConvertTo-Json))
 }
 ```
@@ -869,9 +869,9 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-<a id="Invoke-RgSaProgramSimplePost"></a>
-# **Invoke-RgSaProgramSimplePost**
-> Int32 Invoke-RgSaProgramSimplePost<br>
+<a id="Invoke-RGSAProgramSimplePost"></a>
+# **Invoke-RGSAProgramSimplePost**
+> Int32 Invoke-RGSAProgramSimplePost<br>
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[-ApiKey] <String><br>
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[-SimpleProgramDTO] <PSCustomObject><br>
 
@@ -884,9 +884,9 @@ $SimpleProgramDTO = Initialize-SimpleProgramDTO -CustNo 0 -Size 0 -Route "MyRout
 
 # Inserts a program using minimum requirements.
 try {
-    $Result = Invoke-RgSaProgramSimplePost -ApiKey $ApiKey -SimpleProgramDTO $SimpleProgramDTO
+    $Result = Invoke-RGSAProgramSimplePost -ApiKey $ApiKey -SimpleProgramDTO $SimpleProgramDTO
 } catch {
-    Write-Host ("Exception occurred when calling Invoke-RgSaProgramSimplePost: {0}" -f ($_.ErrorDetails | ConvertFrom-Json))
+    Write-Host ("Exception occurred when calling Invoke-RGSAProgramSimplePost: {0}" -f ($_.ErrorDetails | ConvertFrom-Json))
     Write-Host ("Response headers: {0}" -f ($_.Exception.Response.Headers | ConvertTo-Json))
 }
 ```

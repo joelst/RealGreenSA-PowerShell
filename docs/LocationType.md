@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$LocationType = Initialize-RealGreenSAPSLocationType  -Id null `
+$LocationType = Initialize-RealGreenSaPSLocationType  -Id null `
  -Description null `
  -TranslatedDescription null `
  -SortOrder null

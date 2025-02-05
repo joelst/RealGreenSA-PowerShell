@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$PropertyItemCategory = Initialize-RealGreenSAPSPropertyItemCategory  -Id null `
+$PropertyItemCategory = Initialize-RealGreenSaPSPropertyItemCategory  -Id null `
  -Description null `
  -ServiceType null
 ```

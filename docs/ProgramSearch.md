@@ -81,7 +81,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$ProgramSearch = Initialize-RealGreenSAPSProgramSearch  -Id null `
+$ProgramSearch = Initialize-RealGreenSaPSProgramSearch  -Id null `
  -CustomerNumber null `
  -Status null `
  -ProgramDefinitionID null `

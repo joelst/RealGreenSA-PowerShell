@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$NPSRecord = Initialize-RealGreenSAPSNPSRecord  -CustomerNumber null `
+$NPSRecord = Initialize-RealGreenSaPSNPSRecord  -CustomerNumber null `
  -EmployeeID null `
  -Nps null
 ```

@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$NonServiceDetail = Initialize-RealGreenSAPSNonServiceDetail  -NonServiceReasonID null `
+$NonServiceDetail = Initialize-RealGreenSaPSNonServiceDetail  -NonServiceReasonID null `
  -NonServicedReason null `
  -NonServicedReasonCount null `
  -ServicedCount null `

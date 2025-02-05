@@ -74,7 +74,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$ServiceCode = Initialize-RealGreenSAPSServiceCode  -Id null `
+$ServiceCode = Initialize-RealGreenSaPSServiceCode  -Id null `
  -Name null `
  -LongName null `
  -Available null `

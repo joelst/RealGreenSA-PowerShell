@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$SuffixAlternates = Initialize-RealGreenSAPSSuffixAlternates  -Alternate1 null `
+$SuffixAlternates = Initialize-RealGreenSaPSSuffixAlternates  -Alternate1 null `
  -Alternate2 null `
  -Alternate3 null `
  -Alternate4 null `

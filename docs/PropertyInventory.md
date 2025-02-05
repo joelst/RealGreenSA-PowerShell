@@ -15,7 +15,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$PropertyInventory = Initialize-RealGreenSAPSPropertyInventory  -Id null `
+$PropertyInventory = Initialize-RealGreenSaPSPropertyInventory  -Id null `
  -Description null `
  -CategoryID null `
  -UnitCode null `

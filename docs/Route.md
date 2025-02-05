@@ -32,7 +32,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$Route = Initialize-RealGreenSAPSRoute  -Id null `
+$Route = Initialize-RealGreenSaPSRoute  -Id null `
  -Description null `
  -Directions null `
  -ZoneID null `

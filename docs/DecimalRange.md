@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$DecimalRange = Initialize-RealGreenSAPSDecimalRange  -MinValue null `
+$DecimalRange = Initialize-RealGreenSaPSDecimalRange  -MinValue null `
  -MaxValue null
 ```
 

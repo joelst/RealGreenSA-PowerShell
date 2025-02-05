@@ -20,7 +20,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$AdjustmentCode = Initialize-RealGreenSAPSAdjustmentCode  -Id null `
+$AdjustmentCode = Initialize-RealGreenSaPSAdjustmentCode  -Id null `
  -BackgroundColor null `
  -ForegroundColor null `
  -Available null `

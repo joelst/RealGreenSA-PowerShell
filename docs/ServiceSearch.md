@@ -61,7 +61,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$ServiceSearch = Initialize-RealGreenSAPSServiceSearch  -Id null `
+$ServiceSearch = Initialize-RealGreenSaPSServiceSearch  -Id null `
  -CustomerNumber null `
  -CustomerCompanyID null `
  -ServiceYear null `

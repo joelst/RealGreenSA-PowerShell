@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$CustomerFlagModifierBulk = Initialize-RealGreenSAPSCustomerFlagModifierBulk  -CustomerNumbers null `
+$CustomerFlagModifierBulk = Initialize-RealGreenSaPSCustomerFlagModifierBulk  -CustomerNumbers null `
  -Flag null
 ```
 

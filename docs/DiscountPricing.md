@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$DiscountPricing = Initialize-RealGreenSAPSDiscountPricing  -Location null `
+$DiscountPricing = Initialize-RealGreenSaPSDiscountPricing  -Location null `
  -Id null `
  -Description null `
  -Amount null

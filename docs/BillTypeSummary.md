@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$BillTypeSummary = Initialize-RealGreenSAPSBillTypeSummary  -CountActive null `
+$BillTypeSummary = Initialize-RealGreenSaPSBillTypeSummary  -CountActive null `
  -ActiveRegInvoice null `
  -ActiveCC null `
  -ActiveInstallment null `

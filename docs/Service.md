@@ -74,7 +74,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$Service = Initialize-RealGreenSAPSService  -Id null `
+$Service = Initialize-RealGreenSaPSService  -Id null `
  -CustomerNumber null `
  -CustomerCompanyID null `
  -ServiceYear null `

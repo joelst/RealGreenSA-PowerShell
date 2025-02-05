@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$PreferredPhoneType = Initialize-RealGreenSAPSPreferredPhoneType  -Number null `
+$PreferredPhoneType = Initialize-RealGreenSaPSPreferredPhoneType  -Number null `
  -PhoneType null
 ```
 

@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$RoundCycleDetail = Initialize-RealGreenSAPSRoundCycleDetail  -ServiceCode null `
+$RoundCycleDetail = Initialize-RealGreenSaPSRoundCycleDetail  -ServiceCode null `
  -NumberOfServices null `
  -Size null `
  -DollarAmount null

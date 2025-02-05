@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$PrepaySummaryCriteria = Initialize-RealGreenSAPSPrepaySummaryCriteria  -Season null `
+$PrepaySummaryCriteria = Initialize-RealGreenSaPSPrepaySummaryCriteria  -Season null `
  -CompanyIDs null `
  -PrepayCodes null
 ```

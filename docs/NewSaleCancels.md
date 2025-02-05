@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$NewSaleCancels = Initialize-RealGreenSAPSNewSaleCancels  -CancelCount null `
+$NewSaleCancels = Initialize-RealGreenSaPSNewSaleCancels  -CancelCount null `
  -CancelDollar null `
  -SalesCount null `
  -SalesDollar null

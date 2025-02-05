@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$EmailPenetrationCriteria = Initialize-RealGreenSAPSEmailPenetrationCriteria  -CompanyIDs null `
+$EmailPenetrationCriteria = Initialize-RealGreenSaPSEmailPenetrationCriteria  -CompanyIDs null `
  -Statuses null
 ```
 

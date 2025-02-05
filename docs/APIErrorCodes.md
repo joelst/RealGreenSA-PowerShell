@@ -8,7 +8,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$APIErrorCodes = Initialize-RealGreenSAPSAPIErrorCodes 
+$APIErrorCodes = Initialize-RealGreenSaPSAPIErrorCodes 
 ```
 
 - Convert the resource to JSON

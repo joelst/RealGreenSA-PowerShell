@@ -15,7 +15,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$LeadSourceSummary = Initialize-RealGreenSAPSLeadSourceSummary  -Source null `
+$LeadSourceSummary = Initialize-RealGreenSaPSLeadSourceSummary  -Source null `
  -LeadCount null `
  -LeadDollars null `
  -RejectedCount null `

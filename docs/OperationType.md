@@ -8,7 +8,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$OperationType = Initialize-RealGreenSAPSOperationType 
+$OperationType = Initialize-RealGreenSaPSOperationType 
 ```
 
 - Convert the resource to JSON

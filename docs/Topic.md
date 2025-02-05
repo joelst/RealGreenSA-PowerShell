@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$Topic = Initialize-RealGreenSAPSTopic  -Id null `
+$Topic = Initialize-RealGreenSaPSTopic  -Id null `
  -Description null `
  -DescriptionFrench null `
  -DescriptionSpanish null

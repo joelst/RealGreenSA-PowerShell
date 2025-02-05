@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$NPSRequest = Initialize-RealGreenSAPSNPSRequest  -DateRange null `
+$NPSRequest = Initialize-RealGreenSaPSNPSRequest  -DateRange null `
  -CustomDateRange null `
  -CompanyID null
 ```

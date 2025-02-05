@@ -8,7 +8,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$BatchType = Initialize-RealGreenSAPSBatchType 
+$BatchType = Initialize-RealGreenSaPSBatchType 
 ```
 
 - Convert the resource to JSON

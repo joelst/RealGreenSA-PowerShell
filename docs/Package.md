@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$Package = Initialize-RealGreenSAPSPackage  -Id null `
+$Package = Initialize-RealGreenSaPSPackage  -Id null `
  -Description null `
  -DesecriptionFrench null `
  -DesecriptionSpanish null `

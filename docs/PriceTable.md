@@ -16,7 +16,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$PriceTable = Initialize-RealGreenSAPSPriceTable  -Id null `
+$PriceTable = Initialize-RealGreenSaPSPriceTable  -Id null `
  -Description null `
  -Available null `
  -MaxSize null `

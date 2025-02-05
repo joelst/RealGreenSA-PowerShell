@@ -17,7 +17,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$SalesByEmployeeRequest = Initialize-RealGreenSAPSSalesByEmployeeRequest  -DateRange null `
+$SalesByEmployeeRequest = Initialize-RealGreenSaPSSalesByEmployeeRequest  -DateRange null `
  -CustomDateRange null `
  -CompanyIDs null `
  -EmployeeIds null `

@@ -16,7 +16,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$ProductionRequest = Initialize-RealGreenSAPSProductionRequest  -DoneDateRange null `
+$ProductionRequest = Initialize-RealGreenSaPSProductionRequest  -DoneDateRange null `
  -CustomDoneDateRange null `
  -DoneBy null `
  -Codes null `

@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$Subdivision = Initialize-RealGreenSAPSSubdivision  -Id null `
+$Subdivision = Initialize-RealGreenSaPSSubdivision  -Id null `
  -CompanyID null `
  -Available null `
  -Name null `

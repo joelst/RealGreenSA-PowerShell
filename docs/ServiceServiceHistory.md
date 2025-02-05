@@ -22,7 +22,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$ServiceServiceHistory = Initialize-RealGreenSAPSServiceServiceHistory  -PostBy null `
+$ServiceServiceHistory = Initialize-RealGreenSaPSServiceServiceHistory  -PostBy null `
  -Feedback null `
  -ActualManHours null `
  -Rating null `

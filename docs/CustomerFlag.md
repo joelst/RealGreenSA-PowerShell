@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$CustomerFlag = Initialize-RealGreenSAPSCustomerFlag  -Id null `
+$CustomerFlag = Initialize-RealGreenSaPSCustomerFlag  -Id null `
  -Flag null `
  -CustomerNumber null `
  -Descriptions null

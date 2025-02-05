@@ -8,7 +8,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$PrepayAdjustmentServiceStatus = Initialize-RealGreenSAPSPrepayAdjustmentServiceStatus 
+$PrepayAdjustmentServiceStatus = Initialize-RealGreenSaPSPrepayAdjustmentServiceStatus 
 ```
 
 - Convert the resource to JSON

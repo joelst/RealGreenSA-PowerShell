@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$BatchLookup = Initialize-RealGreenSAPSBatchLookup  -BatchDate null `
+$BatchLookup = Initialize-RealGreenSaPSBatchLookup  -BatchDate null `
  -BatchType null `
  -PrintedBy null
 ```

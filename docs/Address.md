@@ -26,7 +26,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$Address = Initialize-RealGreenSAPSAddress  -HouseNumber null `
+$Address = Initialize-RealGreenSaPSAddress  -HouseNumber null `
  -PreDirection null `
  -StreetName null `
  -StreetSuffix null `

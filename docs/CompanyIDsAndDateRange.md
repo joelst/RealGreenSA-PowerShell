@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$CompanyIDsAndDateRange = Initialize-RealGreenSAPSCompanyIDsAndDateRange  -DateRange null `
+$CompanyIDsAndDateRange = Initialize-RealGreenSaPSCompanyIDsAndDateRange  -DateRange null `
  -CustomDateRange null `
  -CompanyIDs null
 ```

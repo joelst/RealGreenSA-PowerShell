@@ -8,7 +8,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$DateBasedOn = Initialize-RealGreenSAPSDateBasedOn 
+$DateBasedOn = Initialize-RealGreenSaPSDateBasedOn 
 ```
 
 - Convert the resource to JSON

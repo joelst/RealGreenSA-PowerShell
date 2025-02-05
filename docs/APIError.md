@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$APIError = Initialize-RealGreenSAPSAPIError  -ErrorCode null `
+$APIError = Initialize-RealGreenSaPSAPIError  -ErrorCode null `
  -Summary null `
  -Message null
 ```

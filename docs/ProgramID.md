@@ -9,7 +9,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$ProgramID = Initialize-RealGreenSAPSProgramID  -ProgramIDs null
+$ProgramID = Initialize-RealGreenSaPSProgramID  -ProgramIDs null
 ```
 
 - Convert the resource to JSON

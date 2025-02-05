@@ -90,7 +90,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$FullProgram = Initialize-RealGreenSAPSFullProgram  -Id null `
+$FullProgram = Initialize-RealGreenSaPSFullProgram  -Id null `
  -AverageTime null `
  -AveragePrice null `
  -BillingType null `

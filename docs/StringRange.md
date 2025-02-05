@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$StringRange = Initialize-RealGreenSAPSStringRange  -MinValue null `
+$StringRange = Initialize-RealGreenSaPSStringRange  -MinValue null `
  -MaxValue null
 ```
 

@@ -8,7 +8,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$PhoneTypes = Initialize-RealGreenSAPSPhoneTypes 
+$PhoneTypes = Initialize-RealGreenSaPSPhoneTypes 
 ```
 
 - Convert the resource to JSON

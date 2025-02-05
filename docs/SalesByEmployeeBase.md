@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$SalesByEmployeeBase = Initialize-RealGreenSAPSSalesByEmployeeBase  -EmployeeID null `
+$SalesByEmployeeBase = Initialize-RealGreenSaPSSalesByEmployeeBase  -EmployeeID null `
  -FirstName null `
  -LastInitial null `
  -GrossSales null `

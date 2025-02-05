@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$Title = Initialize-RealGreenSAPSTitle  -Id null `
+$Title = Initialize-RealGreenSaPSTitle  -Id null `
  -TitleDesc null
 ```
 

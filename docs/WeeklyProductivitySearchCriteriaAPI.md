@@ -16,7 +16,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$WeeklyProductivitySearchCriteriaAPI = Initialize-RealGreenSAPSWeeklyProductivitySearchCriteriaAPI  -CompanyIDs null `
+$WeeklyProductivitySearchCriteriaAPI = Initialize-RealGreenSaPSWeeklyProductivitySearchCriteriaAPI  -CompanyIDs null `
  -ProgramDefinitionIDs null `
  -EmployeeIds null `
  -Seasons null `

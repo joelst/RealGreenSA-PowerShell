@@ -24,7 +24,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$Vehicle = Initialize-RealGreenSAPSVehicle  -Id null `
+$Vehicle = Initialize-RealGreenSaPSVehicle  -Id null `
  -Description null `
  -Make null `
  -Model null `

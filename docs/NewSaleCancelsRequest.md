@@ -16,7 +16,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$NewSaleCancelsRequest = Initialize-RealGreenSAPSNewSaleCancelsRequest  -CompanyIDs null `
+$NewSaleCancelsRequest = Initialize-RealGreenSaPSNewSaleCancelsRequest  -CompanyIDs null `
  -ProgramDefinitionIDs null `
  -SourceCodes null `
  -CancelReasonIDs null `

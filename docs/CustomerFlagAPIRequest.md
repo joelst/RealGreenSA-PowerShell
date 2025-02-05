@@ -11,7 +11,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$CustomerFlagAPIRequest = Initialize-RealGreenSAPSCustomerFlagAPIRequest  -FlagID null `
+$CustomerFlagAPIRequest = Initialize-RealGreenSaPSCustomerFlagAPIRequest  -FlagID null `
  -CompanyIDs null `
  -Statuses null
 ```

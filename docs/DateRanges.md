@@ -8,7 +8,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$DateRanges = Initialize-RealGreenSAPSDateRanges 
+$DateRanges = Initialize-RealGreenSaPSDateRanges 
 ```
 
 - Convert the resource to JSON

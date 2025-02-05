@@ -23,7 +23,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$CallLogWithNotes = Initialize-RealGreenSAPSCallLogWithNotes  -Id null `
+$CallLogWithNotes = Initialize-RealGreenSaPSCallLogWithNotes  -Id null `
  -CustomerNumber null `
  -EnterDate null `
  -DueDate null `

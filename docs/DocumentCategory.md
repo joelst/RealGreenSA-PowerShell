@@ -14,7 +14,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$DocumentCategory = Initialize-RealGreenSAPSDocumentCategory  -Id null `
+$DocumentCategory = Initialize-RealGreenSaPSDocumentCategory  -Id null `
  -Description null `
  -DescriptionFrench null `
  -DescriptionSpanish null `

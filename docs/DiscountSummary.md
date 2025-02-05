@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$DiscountSummary = Initialize-RealGreenSAPSDiscountSummary  -DiscountCode null `
+$DiscountSummary = Initialize-RealGreenSaPSDiscountSummary  -DiscountCode null `
  -GivenCount null `
  -GivenAmount null `
  -RemainingCount null `

@@ -19,7 +19,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$IndividualInstallment = Initialize-RealGreenSAPSIndividualInstallment  -ContractPaymentId null `
+$IndividualInstallment = Initialize-RealGreenSaPSIndividualInstallment  -ContractPaymentId null `
  -DueDate null `
  -Amount null `
  -Tax1 null `

@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$AuditLogSearchCommon = Initialize-RealGreenSAPSAuditLogSearchCommon  -CompanyIDs null `
+$AuditLogSearchCommon = Initialize-RealGreenSaPSAuditLogSearchCommon  -CompanyIDs null `
  -DateTimeRange null
 ```
 

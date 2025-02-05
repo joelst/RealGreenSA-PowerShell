@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$AddInstallmentResult = Initialize-RealGreenSAPSAddInstallmentResult  -ContractID null `
+$AddInstallmentResult = Initialize-RealGreenSaPSAddInstallmentResult  -ContractID null `
  -Payments null
 ```
 

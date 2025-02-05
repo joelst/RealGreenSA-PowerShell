@@ -16,7 +16,7 @@ Name | Type | Description | Notes
 
 - Prepare the resource
 ```powershell
-$Tax = Initialize-RealGreenSAPSTax  -Id null `
+$Tax = Initialize-RealGreenSaPSTax  -Id null `
  -Available null `
  -AnyBranch null `
  -TaxRate null `
